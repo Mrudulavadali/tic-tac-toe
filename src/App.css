@@ -1,0 +1,57 @@
+.app {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #de1eb8;
+  border: 1px solid #bbb4c1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.cell {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+  width: calc(33.33% - 10px);
+}
+
+.cell:hover {
+  background-color: #f7f7f7;
+}
+
+.winner {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+  margin-top: 20px;
+}
+
+.reset {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: #3e8e41;
+}
+
+
+.reset {
+  margin-top: 20px;
+}
+.h1{
+  flex-wrap: wrap;
+}
